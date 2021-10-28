@@ -1,0 +1,391 @@
+body{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12pt;
+    padding: 0;
+}
+a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.row{
+    float:left;
+    width: 100%;
+    background-color: #f1eaea	;
+
+}
+.tren{
+    min-height: 50px;
+    border-bottom: 1px #ccc solid;
+    padding: 0px 10px ;
+
+}
+.giua{
+
+}
+.tinmoi{
+    
+    min-height: 10px;
+}
+.cuoi{
+    background-color: rgb(187, 169, 169);
+    min-height: 40px;
+}
+.trungtam{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.khoangcach{
+    margin: 10px 0px;
+}
+.mgphai{
+    margin-right: 2%;
+}
+.paddingtop{
+    padding: 20px 0px;
+}
+
+.boxtrai{
+    float: left;
+    width: 25%;
+    object-fit: cover;
+}
+.boxgiua{
+    float: left;
+    width: 40%;
+    object-fit: cover;
+}
+.boxphai{
+    float: right;
+    width: 25%;
+    object-fit: cover;
+}
+.bgc{
+    background-color:rgb(255, 0, 55);
+}
+.tintuc0{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.tintuc1 img{
+    width: 51%;
+    margin-right: 10px;
+    float:left;
+    
+
+}
+.tintuc1 a{
+    color: rgb(87, 70, 182);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.tintuc1 a:hover{
+    color: hotpink;
+    
+
+}
+
+.brbott{
+    border-bottom: 2px #ccc solid;
+}
+.tintuc2 img{
+    width: 115%;
+}
+.tintuc2 a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24pt;
+}
+.tintuc2 a:hover{
+    color: hotpink;
+
+}
+p{
+    line-height: 130%;
+}
+.tintuc3 img{
+    width: 60%;
+}
+.tintuc3 a{
+    color: rgb(37, 62, 172);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.tintuc3 a:hover{
+    color: hotpink;
+
+}
+.mgb{
+    margin-bottom: 30px;
+}
+.trungtam1{
+    width: 60%;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: #FFB6C1	;
+    min-height: 700px;
+}
+.boxtrai1{
+    float: left;
+    width: 48%;
+}
+.boxgiua1{
+    float: left;
+    width: 24%;
+}
+.boxphai1-1{
+    float: left;
+    width: 23%;
+   
+}
+.hdemo{
+    min-height: 100px;
+}
+.mgphai1{
+    margin-right: 3%;
+
+}
+.mgb20{
+   margin-bottom: 20px;
+}
+.boxtrai1 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+.boxphai1-1 img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.boxtrai1 {
+    position: relative;
+}
+.psta{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0%;
+    background-color: rgba(26, 22, 22, 0.5);
+}
+.boxtrai1 a:hover{
+    color: hotpink;
+
+}
+.boxphai1-1 a:hover{
+    color: hotpink;
+   
+
+}
+.boxtrai1 a{
+    font-size: 30px;
+    color: aliceblue;
+    line-height: 150%;
+}
+.boxgiua1 img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.boxphai1-1 a{
+    color: rgb(37, 64, 153);
+   
+}
+.boxgiua1 a{
+    color: rgb(37, 64, 153);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.boxgiua1 a:hover{
+    color: hotpink;
+
+}
+.trungtam2{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5%;
+    min-height: 230px;
+    
+}
+.boxcuoi{
+    float: left;
+    width: 23.5%;
+    min-height: 350 px;
+    position: relative;
+}
+.boxcuoi img{
+    width: 220%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+.tendm{
+    position: absolute;
+    top: 2px;
+    left: 20%;
+    width: 40%;
+    background-color: rgb(192, 211, 221);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+
+}
+.tentin{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 77.5%;
+    background-color:rgba(33, 31, 48, 0.5);
+    text-align: center;
+    padding: 5%;
+}
+.tentin a:hover{
+    color: hotpink;
+}
+.tentin a{
+    color: rgb(196, 157, 130);
+    font-size: 10pt;
+    font-family: serif;
+    text-shadow: 2px 2px 5px #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul.root > li > a:hover{
+
+color: red;
+transform: ease-in 0.35s;
+}
+ul.submenu
+{
+    width: 250px;
+    background: #a15da1;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+ul.submenu li
+{
+    list-style: none;
+}
+
+ul.root > li {
+    
+    list-style: none;
+    float: left;
+    position: relative;
+}
+ul.root > li > a{
+    text-decoration: none;
+    color: #0c0000;
+    padding: 0px 12px 0px 12px; 
+    line-height: 100px;
+    display: block;
+}
+
+ul.submenu li
+{
+    list-style: none;
+}
+    ul.submenu li a
+    {
+        text-transform: none;
+        text-decoration: none;
+        color: hsl(0, 75%, 2%);
+        display: block;
+        border: 1px solid hsl(0, 29%, 95%);
+        line-height: 40px;
+        text-indent: 10px;
+
+    }
+    ul.root > li:hover ul.submenu{
+        display: block;
+        
+        background-color: #50c6ca;
+        color: red;
+        transform: ease-in 0.35s;
+
+    }
+    ul.submenu li a:hover{
+        background-color: rgb(185, 185, 73);
+        color: red;
+        transform: ease-in 0.35s;
+    }
+       
+    .container  {
+        width: 100%;
+        height: auto;
+    }
+        .menu{
+            width: 100%;
+            height: 90px;
+           
+        }
+        .up{
+            width: 80%;
+            height: 70px;
+            margin: 0px auto;
+        }
+        .up ul{
+            list-style: none;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        .up ul li{
+            display: inline-block;
+            padding:10px;
+        }
+        .down{
+            height: 40px;
+            width: 50%;
+            margin: 0 auto;
+        }
+        .search{
+            height: 40px;
+            width: 550px;
+            background-color: white;
+            margin-left: 60px;
+            border-radius: 5px;
+        }
+        .search input{
+            width: 500px;
+            height: 35px;
+            border: 0px;
+            padding-left: 20px;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+        .search button{
+            /*height: 35px;*/
+            border: 0px;
+        }
+        .search button img{
+            width: 40px;
+            height: auto;
+            vertical-align: middle;
+        }
+        .root img{
+            width: 30%;
+        
+        }
+        
+        ul.list-person li:hover img {
+            transform: scale(1.1);
+       
+        }
+        
+
+
+
+
